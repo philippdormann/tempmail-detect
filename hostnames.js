@@ -1,17 +1,6 @@
-export default {
-  /**
-   * @returns array of hostnames which are known to serve temporary emails
-   */
-  getHostnames: () => ([
-    "afarek.com",
-    "quadranet.com",
-    "poneytelecom.eu",
-    "tempail.com",
-    "zomro.com",
-    "kruay.com",
-    "guerrillamail.com",
-    "namesilo.com",
-    "yopmail.com",
-    "host1s.com"
-  ])
-};
+export const hostnames = ["vusra.com","yevme.com","thecarinformation.com","sinaite.net","tormails.com","crepeau12.com","appzily.com","best-john-boats.com","crossmailjet.com","cashflow35.com","coffeetimer24.com","block521.com","bestparadize.com","blondemorkin.com","kjkszpjcompany.com","kobrandly.com","popcornfarm7.com","greencafe24.com","mentonit.net","labworld.org","vintomaper.com","e-mail.edu.pl","mailtrail.xyz","tempr.email","discard.email","tutanota.buzz","protonmail.buzz","write-me.xyz","unip.edu.pl","discardmail.com","spambog.com","dmail.buzz","88-88-88-88.xyz","spambog.ru","vixej.com","edumail.icu","0815.ru","knol-power.nl","freundin.ru","lajoska.pe.hu","1mail.x24hr.com","now.mefound.com","B.cr.cloUdnS.asia","ssl.tls.cloudns.ASIA","rkomo.com","DVD.dns-cloud.net","getnada.com","abyssmail.com","boximail.com","clrmail.com","dropjar.com","getairmail.com","givmail.com","i.xcode.ro","inboxbear.com","robot-mail.com","tafmail.com","xww.ro","vomoto.com","nic.aupet.it","zetmail.com","BD.dns-cloud.net","10minute-mail.com","ria-news.de","asia.dnsabr.com","8.dnsabr.com","blizzlike.xyz","gripam.com","23.8.dnsabr.com","appleparcel.com","ceomail.xyz","temp.yopmail.cc","pemess.com","ww.ceomail.xyz","swismailbox.com","usmailbook.com","modmaza.com","pw.epac.to","memsg.top","imboate.com","getdeadshare.com","tempmaila.org","adult-work.info","t.woeishyang.com","email.edu.pl","drivetagdev.com","necalin.com","glubex.com","africanmails.com","u.dmarc.ro","zhcne.com","wholowpie.com","mail.kaaaxcreators.tk","32core.live","tokyoto.site","tmp.mail.e1645.ml","deadstocks.info","hidemyass.fun","maitrimony.com","solpatu.space","panarabanesthesia2021.live","airadding.com","streamboost.xyz","a.fm.cloudns.nz","eposta.buzz","mail.fm.cloudns.nz","hotbird.giize.com","Try.Z9.ClouDns.Nz","mpszcsoport.xyz","wellvalleyedu.cf","nhn.edu.vn","freemailonline.us","hrepy.com","pebih.com","gexik.com","xeoty.com","sxbta.com","tahyu.com","kucix.com","nafxo.com","bylup.com","fuluj.com","hexud.com","afarek.com","quadranet.com","poneytelecom.eu","tempail.com","zomro.com","kruay.com","guerrillamail.com","namesilo.com","yopmail.com","host1s.com"];
+/**
+ * @returns array of hostnames which are known to serve temporary emails
+ */
+export const getHostnames = () => (hostnames)
+export default getHostnames;

@@ -15,3 +15,6 @@ console.log(isTempMail("spam@host1s.com"));
 console.log(isTempMail("good@email.com"));
 // false
 ```
+
+## About
+- find a list of the used temp mail services in [./services.txt](./services.txt)

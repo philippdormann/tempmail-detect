@@ -1,4 +1,5 @@
-import hostnames from "./hostnames.js";
+import { getHostnames } from "./hostnames.js";
+export { hostnames } from "./hostnames.js";
 
 /**
  * This checks an email address to know if it is a temporary/ spam email address
@@ -7,5 +8,5 @@ import hostnames from "./hostnames.js";
  */
 export function isTempMail(mail) {
   console.log({ mail });
-  return hostnames.getHostnames().some(m => mail.endsWith(`@${m}`))
+  return getHostnames().some(m => mail.endsWith(`@${m}`))
 }
