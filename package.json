@@ -1,0 +1,22 @@
+{
+  "name": "tempmail-detect",
+  "version": "0.0.1",
+  "description": "node module to detect temporary email addresses known for spam",
+  "main": "index.js",
+  "type": "module",
+  "keywords": [
+    "spammail",
+    "spam-mail",
+    "temp-mail",
+    "mail",
+    "disposable",
+    "disposable emails",
+    "detector"
+  ],
+  "author": {
+    "name": "Philipp Dormann",
+    "email": "hi@philippdormann.de",
+    "url": "https://philippdormann.de"
+  },
+  "license": "MIT"
+}
