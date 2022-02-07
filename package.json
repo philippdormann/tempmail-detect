@@ -13,6 +13,10 @@
     "disposable emails",
     "detector"
   ],
+  "scripts": {
+    "build": "node build.js",
+    "release": "release-it"
+  },
   "author": {
     "name": "Philipp Dormann",
     "email": "hi@philippdormann.de",
