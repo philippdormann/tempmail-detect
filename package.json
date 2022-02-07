@@ -18,5 +18,27 @@
     "email": "hi@philippdormann.de",
     "url": "https://philippdormann.de"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "auto-changelog": "^2.4.0",
+    "release-it": "^14.12.4"
+  },
+  "release-it": {
+    "git": {
+      "commit": true,
+      "requireBranch": "main",
+      "requireCleanWorkingDir": false,
+      "commitMessage": "🚀RELEASE v${version}",
+      "push": true,
+      "tag": true,
+      "tagName": "v${version}",
+      "tagAnnotation": "v${version}"
+    },
+    "npm": {
+      "publish": false
+    },
+    "hooks": {
+      "after:bump": "auto-changelog --commit-limit false -p -u --hide-credit && prettier --write . && git add ."
+    }
+  }
 }
