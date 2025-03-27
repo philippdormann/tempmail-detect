@@ -29,15 +29,15 @@
 	},
 	"license": "MIT",
 	"devDependencies": {
-		"auto-changelog": "^2.4.0",
-		"release-it": "^14.12.4"
+		"auto-changelog": "^2.5.0",
+		"release-it": "^18.1.2"
 	},
 	"release-it": {
 		"git": {
 			"commit": true,
 			"requireBranch": "main",
 			"requireCleanWorkingDir": false,
-			"commitMessage": "🚀RELEASE v${version}",
+			"commitMessage": "chore(release): v${version}",
 			"push": true,
 			"tag": true,
 			"tagName": "v${version}",
