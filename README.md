@@ -6,7 +6,7 @@ node module to detect temporary email addresses known for spam
 
 ## Installation
 ```sh
-yarn add tempmail-detect
+pnpm i tempmail-detect
 ```
 
 ## Usage
