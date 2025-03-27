@@ -1,4 +1,4 @@
-import { isTempMail, hostnames } from "./index.js";
+import { isTempMail } from "./index.js";
 
 console.log(isTempMail("spam@host1s.com"));
 // true

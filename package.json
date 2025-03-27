@@ -1,49 +1,53 @@
 {
-  "name": "tempmail-detect",
-  "version": "0.1.0",
-  "description": "node module to detect temporary email addresses known for spam",
-  "main": "index.js",
-  "type": "module",
-  "keywords": [
-    "spammail",
-    "spam-mail",
-    "is-tempmail",
-    "temp-mail",
-    "mail",
-    "disposable",
-    "disposable emails",
-    "detector"
-  ],
-  "scripts": {
-    "build": "node build.js",
-    "release": "release-it"
-  },
-  "author": {
-    "name": "Philipp Dormann",
-    "email": "hi@philippdormann.de",
-    "url": "https://philippdormann.de"
-  },
-  "license": "MIT",
-  "devDependencies": {
-    "auto-changelog": "^2.4.0",
-    "release-it": "^14.12.4"
-  },
-  "release-it": {
-    "git": {
-      "commit": true,
-      "requireBranch": "main",
-      "requireCleanWorkingDir": false,
-      "commitMessage": "🚀RELEASE v${version}",
-      "push": true,
-      "tag": true,
-      "tagName": "v${version}",
-      "tagAnnotation": "v${version}"
-    },
-    "npm": {
-      "publish": false
-    },
-    "hooks": {
-      "after:bump": "auto-changelog --commit-limit false -p -u --hide-credit && node build.js . && git add ."
-    }
-  }
+	"name": "tempmail-detect",
+	"version": "0.1.0",
+	"description": "node module to detect temporary email addresses known for spam",
+	"main": "index.js",
+	"type": "module",
+	"keywords": [
+		"spammail",
+		"spam-mail",
+		"is-tempmail",
+		"temp-mail",
+		"mail",
+		"disposable",
+		"disposable emails",
+		"detector"
+	],
+	"scripts": {
+		"build": "node build.js",
+		"release": "release-it"
+	},
+	"files": [
+		"./index.js",
+		"./hostnames.js"
+	],
+	"author": {
+		"name": "Philipp Dormann",
+		"email": "hi@philippdormann.de",
+		"url": "https://philippdormann.de"
+	},
+	"license": "MIT",
+	"devDependencies": {
+		"auto-changelog": "^2.4.0",
+		"release-it": "^14.12.4"
+	},
+	"release-it": {
+		"git": {
+			"commit": true,
+			"requireBranch": "main",
+			"requireCleanWorkingDir": false,
+			"commitMessage": "🚀RELEASE v${version}",
+			"push": true,
+			"tag": true,
+			"tagName": "v${version}",
+			"tagAnnotation": "v${version}"
+		},
+		"npm": {
+			"publish": false
+		},
+		"hooks": {
+			"after:bump": "auto-changelog --commit-limit false -p -u --hide-credit && node build.js . && git add ."
+		}
+	}
 }
