@@ -1,4 +1,4 @@
-import { createReadStream, fstat, readFileSync, writeFileSync } from 'fs';
+import { createReadStream, readFileSync, writeFileSync } from 'fs';
 import readline from 'readline';
 import stream from 'stream';
 const instream = createReadStream('./domains.txt');
