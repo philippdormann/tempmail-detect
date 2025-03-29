@@ -1,6 +1,6 @@
 {
 	"name": "tempmail-detect",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "node module to detect temporary email addresses known for spam",
 	"main": "index.js",
 	"type": "module",
