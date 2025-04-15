@@ -7,6 +7,5 @@ export { hostnames } from "./hostnames.js";
  * @returns true if it is a temporary email address, else false
  */
 export function isTempMail(mail) {
-  console.log({ mail });
   return getHostnames().some(m => mail.endsWith(`@${m}`))
 }
