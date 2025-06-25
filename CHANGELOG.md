@@ -2,9 +2,16 @@
 
 All notable changes to this project will be documented in this file. Dates are displayed in UTC.
 
+#### [v1.0.5](https://github.com/philippdormann/tempmail-detect/compare/v1.0.4...v1.0.5)
+
+- fix build [`67410e2`](https://github.com/philippdormann/tempmail-detect/commit/67410e2434bcdc3307566ce896d5fbc5d31ee3f4)
+
 #### [v1.0.4](https://github.com/philippdormann/tempmail-detect/compare/v1.0.3...v1.0.4)
 
+> 25 June 2025
+
 - fix build [`317d5ec`](https://github.com/philippdormann/tempmail-detect/commit/317d5ece07dfbba292d5414f984905bdfdee3e74)
+- chore(release): v1.0.4 [`46c9b1f`](https://github.com/philippdormann/tempmail-detect/commit/46c9b1f332cc80ece145ebcd0245b75be17f3e5e)
 
 #### [v1.0.3](https://github.com/philippdormann/tempmail-detect/compare/v1.0.2...v1.0.3)
 
