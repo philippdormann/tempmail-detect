@@ -2,7 +2,7 @@
 	"name": "tempmail-detect",
 	"version": "1.0.2",
 	"description": "node module to detect temporary email addresses known for spam",
-	"main": "index.js",
+	"module": "index.ts",
 	"type": "module",
 	"keywords": [
 		"spammail",
@@ -14,23 +14,14 @@
 		"disposable emails",
 		"detector"
 	],
-	"scripts": {
-		"build": "node build.js",
-		"release": "release-it"
-	},
-	"files": [
-		"./index.js",
-		"./hostnames.js"
-	],
-	"author": {
-		"name": "Philipp Dormann",
-		"email": "hi@philippdormann.de",
-		"url": "https://philippdormann.de"
-	},
-	"license": "MIT",
 	"devDependencies": {
+		"@types/bun": "latest",
 		"auto-changelog": "^2.5.0",
+		"bun-plugin-dts": "^0.3.0",
 		"release-it": "^19.0.3"
+	},
+	"peerDependencies": {
+		"typescript": "^5"
 	},
 	"release-it": {
 		"git": {
@@ -47,7 +38,7 @@
 			"publish": false
 		},
 		"hooks": {
-			"after:bump": "auto-changelog --commit-limit false -p -u --hide-credit && node build.js . && git add ."
+			"after:bump": "auto-changelog --commit-limit false -p -u --hide-credit && bun run bunbuild.js . && git add ."
 		}
 	}
 }
