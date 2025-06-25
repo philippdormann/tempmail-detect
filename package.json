@@ -30,7 +30,7 @@
 	"license": "MIT",
 	"devDependencies": {
 		"auto-changelog": "^2.5.0",
-		"release-it": "^18.1.2"
+		"release-it": "^19.0.3"
 	},
 	"release-it": {
 		"git": {
