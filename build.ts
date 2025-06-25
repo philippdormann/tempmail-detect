@@ -23,4 +23,4 @@ console.log(uniqueDomains);
 fs.writeFileSync("domains.txt", domains.join("\n"));
 //
 const contentJS = fs.readFileSync("./hostnames.template.ts", { encoding: "utf8" }).replace(`[]`, JSON.stringify(uniqueDomains))
-fs.writeFileSync("./hostnames.ts", contentJS);
+fs.writeFileSync("./src/hostnames.ts", contentJS);

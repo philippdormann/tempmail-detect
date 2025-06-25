@@ -2,14 +2,20 @@
 	"name": "tempmail-detect",
 	"version": "1.0.4",
 	"description": "node module to detect temporary email addresses known for spam",
-	"module": "./dist/index.js",
 	"type": "module",
+	"exports": {
+		".": {
+			"import": "./dist/index.mjs",
+			"require": "./dist/index.cjs"
+		}
+	},
+	"main": "./dist/index.cjs",
+	"types": "./dist/index.d.ts",
 	"files": [
-		"./dist/index.js",
-		"./dist/index.d.ts"
+		"dist"
 	],
 	"scripts": {
-		"dist": "bun run build.ts && bun run dist.ts",
+		"dist": "bun run build.ts && bunx unbuild",
 		"release": "release-it"
 	},
 	"keywords": [
@@ -25,7 +31,6 @@
 	"devDependencies": {
 		"@types/bun": "latest",
 		"auto-changelog": "^2.5.0",
-		"bun-plugin-dts": "^0.3.0",
 		"release-it": "^19.0.3"
 	},
 	"peerDependencies": {
@@ -48,5 +53,8 @@
 		"hooks": {
 			"after:bump": "auto-changelog --commit-limit false -p -u --hide-credit && bun run dist . && git add ."
 		}
+	},
+	"dependencies": {
+		"unbuild": "^3.5.0"
 	}
 }
