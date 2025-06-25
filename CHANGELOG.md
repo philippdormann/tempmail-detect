@@ -2,7 +2,18 @@
 
 All notable changes to this project will be documented in this file. Dates are displayed in UTC.
 
-#### [1.0.2](https://github.com/philippdormann/tempmail-detect/compare/1.0.1...1.0.2)
+#### [v1.0.3](https://github.com/philippdormann/tempmail-detect/compare/v1.0.2...v1.0.3)
+
+- bun [`00d560a`](https://github.com/philippdormann/tempmail-detect/commit/00d560af09337a7215f1e48b104c46acbf4f4eb5)
+- chore(deps): bump [`4f1ed80`](https://github.com/philippdormann/tempmail-detect/commit/4f1ed8084e98216c4e018701ed6ed8637153f3a3)
+- Update domains.txt [`db631e7`](https://github.com/philippdormann/tempmail-detect/commit/db631e770933bcaceca0bfcde8fee39b0c608909)
+- Update domains.txt [`78b469f`](https://github.com/philippdormann/tempmail-detect/commit/78b469f6da6b36be9a92d538f8fbdbf7c084efc8)
+
+#### [v1.0.2](https://github.com/philippdormann/tempmail-detect/compare/1.0.1...v1.0.2)
+
+> 15 April 2025
+
+- chore(release): v1.0.2 [`99ed162`](https://github.com/philippdormann/tempmail-detect/commit/99ed1624ec51c92ac4c13f684c51acc7dba5ead5)
 
 #### [1.0.1](https://github.com/philippdormann/tempmail-detect/compare/v1.0.0...1.0.1)
 
