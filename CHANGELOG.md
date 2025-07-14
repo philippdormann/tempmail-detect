@@ -2,9 +2,16 @@
 
 All notable changes to this project will be documented in this file. Dates are displayed in UTC.
 
+#### [v1.0.6](https://github.com/philippdormann/tempmail-detect/compare/v1.0.5...v1.0.6)
+
+- fix: drop 1 list, it contained gmail.com and more - not temp mails imo [`79d4007`](https://github.com/philippdormann/tempmail-detect/commit/79d40074f676c161981c49f3cb59f0bb48cbbfab)
+
 #### [v1.0.5](https://github.com/philippdormann/tempmail-detect/compare/v1.0.4...v1.0.5)
 
+> 25 June 2025
+
 - fix build [`67410e2`](https://github.com/philippdormann/tempmail-detect/commit/67410e2434bcdc3307566ce896d5fbc5d31ee3f4)
+- chore(release): v1.0.5 [`fb5f387`](https://github.com/philippdormann/tempmail-detect/commit/fb5f387482bb7354fd92840d7642490aab5a4adb)
 
 #### [v1.0.4](https://github.com/philippdormann/tempmail-detect/compare/v1.0.3...v1.0.4)
 
